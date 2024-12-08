@@ -1,0 +1,23 @@
+version: '3'
+services:
+  api-rest-server:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
+
+  web-client:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
+    links:
+      - rest-api
+
+  mobile-client:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
+    volumes:
+      - .:/workspace:cached
+    command: sleep infinity
+    links:
+      - rest-api

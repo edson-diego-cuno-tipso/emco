@@ -1,0 +1,16 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "web-client",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/web-client-src",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next",
+                "angular.ng-template"
+            ]
+        }
+    }
+}

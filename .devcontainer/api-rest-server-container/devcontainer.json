@@ -1,0 +1,16 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "api-rest-server",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/api-rest-server-src",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next",
+                "angular.ng-template"
+            ]
+        }
+    }
+}

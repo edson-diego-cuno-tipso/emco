@@ -1,0 +1,15 @@
+{
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "web-client",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/mobile-client-src",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    }
+}
