@@ -12,7 +12,7 @@ services:
       - .:/workspace:cached
     command: sleep infinity
     links:
-      - rest-api
+      - api-rest-server
 
   mobile-client:
     image: mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm
@@ -20,4 +20,4 @@ services:
       - .:/workspace:cached
     command: sleep infinity
     links:
-      - rest-api
+      - api-rest-server
