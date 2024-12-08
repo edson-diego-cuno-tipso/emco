@@ -1,0 +1,6 @@
+api-rest-server-src/*
+!api-rest-server-src/.gitkeep
+mobile-client-src/*
+!mobile-client-src/.gitkeep
+web-client-src/*
+!web-client-src/.gitkeep
